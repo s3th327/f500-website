@@ -1,0 +1,12 @@
+
+.btn-group.special{
+	display: flex;
+}
+.special .btn{
+	flex: 1;
+}
+.track{
+	font-size: xx-large;
+	background-color: lightgrey;
+	text-align: center;
+}
