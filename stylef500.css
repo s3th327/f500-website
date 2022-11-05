@@ -1,4 +1,3 @@
-
 .btn-group.special{
 	display: flex;
 }
@@ -9,4 +8,30 @@
 	font-size: xx-large;
 	background-color: lightgrey;
 	text-align: center;
+}
+fieldset + .news-grid{
+	display: flex;
+	justify-content: end;
+
+}
+.border-top-right{
+	margin: 10px;
+    width: 900px;
+    height: 1200px;
+    border-top: 10px solid green;
+    border-right: 10px solid green;
+    border-top-right-radius: 10px;
+    
+}
+.border-top-right img:hover{
+	transform: scale(1.05);
+}
+.news-grid{
+	display: inline-grid;
+	grid-template-columns: 6px  6px;
+	grid-gap: 20em;
+}
+.news-grid img:hover{
+	transform: scale(1.05);
+
 }
